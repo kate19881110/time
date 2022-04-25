@@ -5,7 +5,8 @@
     <goodJob/> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <alert/> -->
-    <TimePicker/>
+    <!-- <TimePicker/> -->
+    <homeLock/>
   </div>
 </template>
 
@@ -14,7 +15,8 @@
 // import nextTick from "@/views/nextTick.vue";
 // import alert from "@/views/alertWord.vue";
 // import goodJob from "@/views/goodJob.vue";
-import TimePicker from "@/views/TimePicker.vue";
+// import TimePicker from "@/views/TimePicker.vue";
+import homeLock from "@/views/homeLock.vue"
 export default {
   name: 'App',
   components: {
@@ -22,7 +24,8 @@ export default {
     // nextTick,
     // goodJob,
     // alert
-    TimePicker
+    // TimePicker
+    homeLock
   }
 }
 </script>
