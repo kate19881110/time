@@ -100,3 +100,13 @@ export default {
             .blank
                 width: 23px
 </style>
+
+<style>
+.v-drumroll-picker__container .vue-scroll-picker-layer .top {
+    border: none;
+}
+
+.v-drumroll-picker__container .vue-scroll-picker-layer .bottom {
+    border: none;
+}
+</style>
