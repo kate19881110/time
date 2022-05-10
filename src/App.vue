@@ -1,15 +1,18 @@
 <template>
   <div id="app">
-    <TimePicker/>
+    <AllSelected/>
+    <SelectedChkBox/>
   </div>
 </template>
 
 <script>
-import TimePicker from "@/views/TimePicker.vue";
+import AllSelected from "@/views/AllSelected.vue";
+import SelectedChkBox from "@/views/SelectedChkBox.vue";
 export default {
   name: 'App',
   components: {
-    TimePicker
+    AllSelected,
+    SelectedChkBox
   }
 }
 </script>
