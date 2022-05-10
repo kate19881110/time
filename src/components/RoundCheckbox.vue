@@ -25,7 +25,7 @@ export default {
             }
         },
         checkBox(value){
-            console.log(1);
+            console.log('round checkBox');
             if(value){
                 this.chkBoxValue=true;
             }else{

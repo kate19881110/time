@@ -3,7 +3,7 @@
         <li v-for="(item,index) in num" :key="index">
             <RoundCheckbox  v-model="roundBox" :checkBox="roundBox"/> 1
         </li>
-        <RoundCheckbox v-model="allChecked" @change="changeAllCheck"/> 全選
+        <RoundCheckbox v-model="allChecked" :checkBox="allChecked" @change="changeAllCheck()"/> 全選
 
 
     </div>
@@ -24,12 +24,11 @@ export default {
     },
     methods: {
         changeAllCheck(){
-            console.log(3);
+            this.allChecked=!this.allChecked;
             if(this.allChecked){
-                this.roundBox=false;
-            }else{
                 this.roundBox=true;
-                this.allChecked=true;
+            }else{
+                this.roundBox=false;
             }
         }
     },
